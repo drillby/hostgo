@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Host.go</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <ul>
+        <li>
+          <div class="dropdown-signin">
+            <button onclick="signInDropdown()" class="dropbtn-signin">
+              Sign In
+            </button>
+            <div class="dropdown-content-signin" id="signinDropdown">
+              <a href="signin.html">Billing Area</a>
+              <a href="">Panel</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown-support">
+            <button onclick="supportDropdown()" class="dropbtn-support">
+              Support
+            </button>
+            <div id="supportDropdown" class="dropdown-content-support">
+              <a onclick="joinDiscord()">Discord</a>
+              <a href="mailto:hostgosupport@gmail.com"
+                >hostgosupport@gmail.com</a
+              >
+            </div>
+          </div>
+        </li>
+        <li>
+          <button type="button" onclick="alert('Nějaký text o nás')">
+            About Us
+          </button>
+        </li>
+        <li>
+          <button type="button" onclick="alert('Minecraft hosting')">
+            Minecraft
+          </button>
+        </li>
+        <li>
+          <button type="button" onclick="alert('Překlad')">Languages</button>
+        </li>
+        <li>
+          <img class="obr" src="hostgo-logo.png" alt="Host.go logo" />
+        </li>
+      </ul>
+    </div>
+    <div class="introduction-container">
+      <h1>Úvodní nadpis</h1>
+      <h2>Úvodní text</h2>
+      <table class="introduction-buttons">
+        <tr>
+          <td>
+            <a href="#plans">View Plans</a>
+          </td>
+          <td><a href="" onclick="joinDiscord()">Join Discord</a></td>
+        </tr>
+      </table>
+    </div>
+    <div class="bg-plans" id="plans">
+      <div class="plans-header-container">
+        <h1>Our plans</h1>
+      </div>
+      <div class="plans-container">
+        <table class="plans-table">
+          <tr>
+            <td>
+              <div class="card">
+                <h3>Nadpis</h3>
+                <h2>Počet RAM</h2>
+                <h3>Popis</h3>
+                <h1>Cena</h1>
+                <button>Order</button>
+              </div>
+            </td>
+            <td>
+              <div class="card">
+                <h3>Nadpis</h3>
+                <h2>Počet RAM</h2>
+                <h3>Popis</h3>
+                <h1>Cena</h1>
+                <button>Order</button>
+              </div>
+            </td>
+            <td>
+              <div class="card">
+                <h3>Nadpis</h3>
+                <h2>Počet RAM</h2>
+                <h3>Popis</h3>
+                <h1>Cena</h1>
+                <button>Order</button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="card">
+                <h3>Nadpis</h3>
+                <h2>Počet RAM</h2>
+                <h3>Popis</h3>
+                <h1>Cena</h1>
+                <button>Order</button>
+              </div>
+            </td>
+            <td>
+              <div class="card">
+                <h3>Nadpis</h3>
+                <h2>Počet RAM</h2>
+                <h3>Popis</h3>
+                <h1>Cena</h1>
+                <button>Order</button>
+              </div>
+            </td>
+            <td>
+              <div class="card">
+                <h3>Nadpis</h3>
+                <h2>Počet RAM</h2>
+                <h3>Popis</h3>
+                <h1>Cena</h1>
+                <button>Order</button>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="offered-advantages-container">
+        <h3>Advantages you can get</h3>
+        <table>
+          <tr>
+            <td>
+              <div class="advantage-text">
+                <h4>Nadpis</h4>
+                <p>Popis</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="advantage-text">
+                <h4>Nadpis</h4>
+                <p>Popis</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="advantage-text">
+                <h4>Nadpis</h4>
+                <p>Popis</p>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="chat-with-us-container">
+        <table class="chat-with-us">
+          <tr>
+            <td class="heading"><h1>Chat with us</h1></td>
+            <td>
+              <p>Popis chat with us - 1</p>
+              <p>Popis chat with us - 2</p>
+              <p>Popis chat with us - 3</p>
+            </td>
+            <td class="button">
+              <button class="join-discord" onclick="joinDiscord()">
+                Join Discord
+              </button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="footer">
+      <table class="footer-text">
+        <tr>
+          <td><h3>ABOUT</h3></td>
+          <td><h3>PAGES</h3></td>
+          <td><h3>SUPPORT</h3></td>
+        </tr>
+        <tr>
+          <td><p>Text about</p></td>
+          <td><a href="index.html">Home page</a></td>
+          <td>
+            <a href="" onclick="joinDiscord()">Discord</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a href="terms.html">Terms of using</a></td>
+          <td>
+            <a href="mailto:hostgosupport@gmail.com">hostgosupport@gmail.com</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a href="privacy.html">Privacy Policy</a></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
