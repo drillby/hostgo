@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/hostgo-logo.png" />
     <title>Host.go</title>
   </head>
   <body>
@@ -13,13 +14,9 @@
       <ul>
         <li>
           <div class="dropdown-signin">
-            <button onclick="signInDropdown()" class="dropbtn-signin">
-              Sign In
-            </button>
-            <div class="dropdown-content-signin" id="signinDropdown">
-              <a href="signin.html">Billing Area</a>
-              <a href="">Panel</a>
-            </div>
+            <a href="https://panel.hostgo.cloud/"
+              ><button class="dropbtn-signin">Sign In</button></a
+            >
           </div>
         </li>
         <li>
@@ -29,33 +26,25 @@
             </button>
             <div id="supportDropdown" class="dropdown-content-support">
               <a onclick="joinDiscord()">Discord</a>
-              <a href="mailto:hostgosupport@gmail.com"
-                >hostgosupport@gmail.com</a
+              <a href="mailto:hostgo.support@gmail.com"
+                >hostgo.support@gmail.com</a
               >
             </div>
           </div>
         </li>
         <li>
-          <button type="button" onclick="alert('Nějaký text o nás')">
-            About Us
-          </button>
+          <a href="https://panel.hostgo.cloud/"
+            ><button class="dropbtn-signin">Hosting</button></a
+          >
         </li>
         <li>
-          <button type="button" onclick="alert('Minecraft hosting')">
-            Minecraft
-          </button>
-        </li>
-        <li>
-          <button type="button" onclick="alert('Překlad')">Languages</button>
-        </li>
-        <li>
-          <img class="obr" src="hostgo-logo.png" alt="Host.go logo" />
+          <img class="obr" src="images/hostgo-logo.png" alt="Host.go logo" />
         </li>
       </ul>
     </div>
     <div class="introduction-container">
-      <h1>Úvodní nadpis</h1>
-      <h2>Úvodní text</h2>
+      <h1>HostGo</h1>
+      <h2>The most powerful servers coming with fair price</h2>
       <table class="introduction-buttons">
         <tr>
           <td>
@@ -74,28 +63,27 @@
           <tr>
             <td>
               <div class="card">
-                <h3>Nadpis</h3>
-                <h2>Počet RAM</h2>
-                <h3>Popis</h3>
-                <h1>Cena</h1>
+                <h3>Budget</h3>
+                <h2>4GB RAM</h2>
+                <h3>1 Dedicated Threat of CPU</h3>
+                <h3>35GB NVME SSD Storage</h3>
+                <h3>6 Backups</h3>
+                <h3>2 Servers</h3>
+                <h3>4 Databases</h3>
+                <h1>7.00€/month</h1>
                 <button>Order</button>
               </div>
             </td>
             <td>
               <div class="card">
-                <h3>Nadpis</h3>
-                <h2>Počet RAM</h2>
-                <h3>Popis</h3>
-                <h1>Cena</h1>
-                <button>Order</button>
-              </div>
-            </td>
-            <td>
-              <div class="card">
-                <h3>Nadpis</h3>
-                <h2>Počet RAM</h2>
-                <h3>Popis</h3>
-                <h1>Cena</h1>
+                <h3>Performance</h3>
+                <h2>16GB RAM</h2>
+                <h3>2 Dedicated Cores of CPU</h3>
+                <h3>150GB NVME SSD Storage</h3>
+                <h3>24 Backups</h3>
+                <h3>8 Servers</h3>
+                <h3>16 Databases</h3>
+                <h1>26.00€/month</h1>
                 <button>Order</button>
               </div>
             </td>
@@ -103,28 +91,27 @@
           <tr>
             <td>
               <div class="card">
-                <h3>Nadpis</h3>
-                <h2>Počet RAM</h2>
-                <h3>Popis</h3>
-                <h1>Cena</h1>
+                <h3>Budget Plus</h3>
+                <h2>8GB RAM</h2>
+                <h3>1 Dedicated Core of CPU</h3>
+                <h3>75GB NVME SSD Storage</h3>
+                <h3>12 Backups</h3>
+                <h3>4 Servers</h3>
+                <h3>8 Databases</h3>
+                <h1>13.50€/month</h1>
                 <button>Order</button>
               </div>
             </td>
             <td>
               <div class="card">
-                <h3>Nadpis</h3>
-                <h2>Počet RAM</h2>
-                <h3>Popis</h3>
-                <h1>Cena</h1>
-                <button>Order</button>
-              </div>
-            </td>
-            <td>
-              <div class="card">
-                <h3>Nadpis</h3>
-                <h2>Počet RAM</h2>
-                <h3>Popis</h3>
-                <h1>Cena</h1>
+                <h3>Performance Plus</h3>
+                <h2>32GB RAM</h2>
+                <h3>3 Dedicated Cores of CPU</h3>
+                <h3>225GB NVME SSD Storage</h3>
+                <h3>36 Backups</h3>
+                <h3>16 Servers</h3>
+                <h3>32 Databases</h3>
+                <h1>37.00€/month</h1>
                 <button>Order</button>
               </div>
             </td>
@@ -132,47 +119,50 @@
         </table>
       </div>
       <div class="offered-advantages-container">
-        <h3>Advantages you can get</h3>
+        <h3>Advantages you will get with our Services</h3>
         <table>
           <tr>
             <td>
               <div class="advantage-text">
-                <h4>Nadpis</h4>
-                <p>Popis</p>
+                <h4>Multiple Servers in Single Plan</h4>
+                <p>
+                  We will give you recourses and you will split them into more
+                  servers with different games running on different servers
+                </p>
               </div>
             </td>
           </tr>
           <tr>
             <td>
               <div class="advantage-text">
-                <h4>Nadpis</h4>
-                <p>Popis</p>
+                <h4>DDoS Protected Servers</h4>
+                <p>
+                  Our entire network is protected by full-time DDoS protection
+                  at no additional cost!
+                </p>
               </div>
             </td>
           </tr>
           <tr>
             <td>
               <div class="advantage-text">
-                <h4>Nadpis</h4>
-                <p>Popis</p>
+                <h4>Dedicated AMD Ryzen 9 recourses</h4>
+                <p>
+                  With all our plans, your CPU, RAM and Storage is Dedicated
+                  just for you with absolutely no limits.
+                </p>
               </div>
             </td>
           </tr>
-        </table>
-      </div>
-      <div class="chat-with-us-container">
-        <table class="chat-with-us">
           <tr>
-            <td class="heading"><h1>Chat with us</h1></td>
             <td>
-              <p>Popis chat with us - 1</p>
-              <p>Popis chat with us - 2</p>
-              <p>Popis chat with us - 3</p>
-            </td>
-            <td class="button">
-              <button class="join-discord" onclick="joinDiscord()">
-                Join Discord
-              </button>
+              <div class="advantage-text">
+                <h4>Peak 24/7 Performance</h4>
+                <p>
+                  We will never over-sell our nodes, so you will get
+                  peak-performance 24/7
+                </p>
+              </div>
             </td>
           </tr>
         </table>
@@ -181,28 +171,23 @@
     <div class="footer">
       <table class="footer-text">
         <tr>
-          <td><h3>ABOUT</h3></td>
           <td><h3>PAGES</h3></td>
           <td><h3>SUPPORT</h3></td>
         </tr>
         <tr>
-          <td><p>Text about</p></td>
           <td><a href="index.html">Home page</a></td>
           <td>
             <a href="" onclick="joinDiscord()">Discord</a>
           </td>
         </tr>
         <tr>
-          <td></td>
-          <td><a href="terms.html">Terms of using</a></td>
+          <td><a href="terms.html">Terms of service</a></td>
+
           <td>
-            <a href="mailto:hostgosupport@gmail.com">hostgosupport@gmail.com</a>
+            <a href="mailto:hostgo.support@gmail.com"
+              >hostgo.support@gmail.com</a
+            >
           </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
         </tr>
       </table>
     </div>

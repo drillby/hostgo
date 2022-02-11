@@ -174,8 +174,7 @@ html {
 }
 
 .bg-plans {
-  width: device-width;
-  height: 1650px;
+  height: 1800px;
   background-color: var(--background-color);
 }
 .plans-header-container h1 {
@@ -188,19 +187,21 @@ html {
 }
 
 .plans-container {
-  margin-left: 10%;
+  margin: auto;
 }
 
 .plans-table {
   width: 100%;
+  table-layout: fixed;
 }
 
 .card {
   position: relative;
+  margin: auto;
   top: 50px;
   background-color: var(--card-background);
   border-radius: 16px;
-  height: 270px;
+  height: 450px;
   width: 50%;
 }
 
@@ -373,275 +374,28 @@ html {
   margin-top: 3%;
 }
 
-.signin-container {
-  position: relative;
-  top: 50px;
+.tos_pp {
+  width: 85%;
   margin: auto;
-  height: 370px;
-  width: 15%;
-  background-color: var(--background-color);
+  font-size: 110%;
   text-align: center;
-  border-radius: 25px;
 }
 
-.whitespace {
-  height: 110px;
-}
-
-.signin-container form {
-  position: relative;
-  color: aliceblue;
-  top: 20px;
-}
-
-.signin-container input[type="text"],
-.signin-container input[type="password"] {
-  width: 80%;
-  height: 20px;
-  border-radius: 6px;
-}
-
-.signin-container input[type="text"]:focus,
-.signin-container input[type="password"]:focus {
-  transition: var(--transition-time);
-  background-color: var(--svetle-modra);
-}
-
-.signin-container input[type="text"]:not(:focus),
-.signin-container input[type="password"]:not(:focus) {
-  transition: var(--transition-time);
-  background-color: aliceblue;
-}
-
-.signin-container input[type="submit"] {
-  position: relative;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin-left: 5%;
-  cursor: pointer;
-  border-radius: 16px;
+.tos_pp ul {
+  margin: auto;
   width: 50%;
-  font-size: 130%;
 }
 
-.signin-container input[type="submit"]:hover {
-  background-color: black;
-  color: aliceblue;
-  transition: var(--transition-time);
+.tos_pp li {
+  list-style: none;
+  text-align: left;
 }
 
-.signin-container input[type="submit"]:not(:hover) {
-  background-color: aliceblue;
+.tos_pp a {
   color: black;
-  transition: var(--transition-time);
 }
 
-.signin-container a {
-  color: var(--svetle-modra);
-}
-
-.register-container {
-  color: aliceblue;
+img {
   position: relative;
-  top: 50px;
-  margin: auto;
-  height: 800px;
-  width: 40%;
-  background-color: var(--card-background);
-  border-radius: 25px;
-}
-
-.register-container h1 {
-  position: relative;
-  top: 15px;
-  text-align: center;
-}
-
-.register-table {
-  padding-left: 70px;
-  width: 100%;
-}
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-}
-
-.register-table input[type="text"],
-.register-table input[type="password"],
-.register-table input[type="number"],
-.register-table select {
-  min-width: 250px;
-  border-radius: 6px;
-}
-
-.register-table input[type="text"]:focus,
-.register-table input[type="password"]:focus,
-.register-table input[type="number"]:focus {
-  background-color: var(--svetle-modra);
-  transition: var(--transition-time);
-}
-
-.register-table input[type="text"]:not(:focus),
-.register-table input[type="password"]:not(:focus),
-.register-table input[type="number"]:not(:focus) {
-  background-color: aliceblue;
-  transition: var(--transition-time);
-}
-
-.register-container input[type="submit"] {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin-left: 50%;
-  cursor: pointer;
-  border-radius: 16px;
-  width: 100%;
-  font-size: 130%;
-}
-
-.register-container input[type="submit"]:hover {
-  background-color: black;
-  color: aliceblue;
-  transition: var(--transition-time);
-}
-
-.register-container input[type="submit"]:not(:hover) {
-  background-color: aliceblue;
-  color: black;
-  transition: var(--transition-time);
-}
-
-.register-container a {
-  color: var(--svetle-modra);
-}
-
-.register-container .registered {
-  text-align: center;
-}
-
-.registered input[type="checkbox"] {
-  accent-color: var(--svetle-modra);
-}
-
-#first-name-empty,
-#last-name-empty,
-#email-empty,
-#street-address-empty,
-#city-empty,
-#postcode-empty,
-#country-empty,
-#password-empty,
-#confirm-password-no-match {
-  color: transparent;
-}
-
-.reset-pw-container {
-  position: relative;
-  margin: auto;
-  height: 500px;
-  width: 15%;
-  background-color: var(--background-color);
-  text-align: center;
-  border-radius: 25px;
-}
-
-.reset-pw-container form {
-  position: relative;
-  color: aliceblue;
-  top: 10px;
-}
-
-.reset-pw-container input[type="text"],
-.reset-pw-container input[type="password"] {
-  width: 80%;
-  height: 20px;
-  border-radius: 6px;
-}
-
-.reset-pw-container input[type="text"]:focus,
-.reset-pw-container input[type="password"]:focus {
-  transition: var(--transition-time);
-  background-color: var(--svetle-modra);
-}
-
-.reset-pw-container input[type="text"]:not(:focus),
-.reset-pw-container input[type="password"]:not(:focus) {
-  transition: var(--transition-time);
-  background-color: aliceblue;
-}
-
-.reset-pw-container input[type="submit"] {
-  position: relative;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin-left: 5%;
-  cursor: pointer;
-  border-radius: 16px;
-  width: 50%;
-  font-size: 130%;
-}
-
-.reset-pw-container input[type="submit"]:hover {
-  background-color: black;
-  color: aliceblue;
-  transition: var(--transition-time);
-}
-
-.reset-pw-container input[type="submit"]:not(:hover) {
-  background-color: aliceblue;
-  color: black;
-  transition: var(--transition-time);
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  color: var(--svetle-modra);
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
-.billing-navbar {
-  top: 0;
-  width: 100%;
-  height: 30px;
-  background-color: red;
+  top: -20px;
 }
