@@ -1,5 +1,5 @@
 function joinDiscord() {
-    window.open('http://discord.com')
+    window.open('https://dsc.gg/hostgo')
 }
 
 function supportDropdown() {
